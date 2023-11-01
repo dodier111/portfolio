@@ -1,0 +1,357 @@
+* {
+   margin: 0;
+   scroll-behavior: smooth;
+
+
+}
+
+
+.header1 {
+
+
+   height: 675px;
+   width: 100%;
+   background-color: black;
+
+   padding-top: 62px;
+
+
+
+
+}
+
+.title a {
+
+   text-decoration: none;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   font-size: 30px;
+
+   margin-left: 120px;
+   color: white;
+
+
+
+
+
+
+}
+
+button {
+   background-color: white;
+   color: black;
+   width: fit-content;
+   margin-left: 120px;
+   border-radius: 10px;
+   width: 150px;
+   height: 50px;
+   font-size: 15px;
+
+
+}
+
+
+.title a:hover:nth-child(1) {
+
+
+
+   color: aqua;
+   font-size: 40px;
+
+
+
+
+
+
+
+}
+
+.title a:hover:nth-child(2) {
+
+
+
+   color: aqua;
+   font-size: 40px;
+
+
+
+
+
+
+}
+
+.title a:hover:nth-child(3) {
+
+
+
+   color: aqua;
+   font-size: 40px;
+
+
+
+
+
+
+}
+
+.title a:hover:nth-child(4) {
+
+
+
+   color: aqua;
+   font-size: 40px;
+
+
+
+
+
+
+}
+
+.title a:hover:nth-child(5) {
+
+
+
+   color: aqua;
+   font-size: 40px;
+
+
+
+
+
+
+}
+
+.title button:hover {
+   background-color: rgb(166, 166, 163);
+   width: 170px;
+   height: 70px;
+
+
+
+
+
+}
+
+.title h1 {
+   font-size: 120px;
+   color: white;
+   margin-top: -499px;
+   margin-left: 569px;
+   font-family: Verdana, Geneva, Tahoma, sans-serif0;
+
+
+
+}
+
+.arrow svg {
+   color: #d35100;
+   position: relative;
+   left: 270px;
+   top: 160px;
+   animation: pop 1s ease-in-out infinite alternate;
+   margin-left: 357px;
+   margin-top: -30px;
+}
+
+
+@keyframes pop {
+   from {
+      transform: translatey(0);
+
+   }
+
+   to {
+      transform: translatey(20px);
+
+   }
+}
+
+.about {
+   height: 100vh;
+   width: 100%;
+
+   background-color: white;
+   display: flex;
+   justify-content: space-between;
+
+   align-items: center;
+
+}
+
+.about p {
+
+
+   font-size: 40px;
+   font-family: "Indie Flower", cursive;
+   color: #000;
+   width: 1000px;
+   text-align: center;
+   font-weight: 900;
+}
+
+.project {
+   height: 100vh;
+   width: 100%;
+
+   background-color: #000;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-evenly;
+   align-items: center;
+   flex-wrap: nowrap;
+}
+
+.project-details {
+
+   background-color: dodgerblue;
+   border-radius: 20px;
+   width: 80%;
+   height: 300px;
+   position: relative;
+   display: flex;
+   margin-top: 0;
+
+   flex-wrap: wrap;
+}
+
+.project-details:hover {
+   transition: all ease-in;
+   transform: scale(1.05);
+}
+
+.project-details img {
+   width: 40%;
+   height: 260px;
+
+   border-radius: 20px;
+   margin-top: 20px;
+   margin-left: 20px;
+   box-shadow: 0px 0px 4px 4px #d35100;
+}
+
+.project-details img:hover {
+   transition: all ease-in;
+   transform: scale(1.05);
+}
+
+.project-details h2 {
+   color: #fff;
+   font-size: 40px;
+   font-family: "Black Ops One", cursive;
+   margin-left: 50px;
+   margin-top: 15px;
+   margin-bottom: 0;
+}
+
+.project-details p {
+   color: #000;
+   font-size: 17px;
+   font-weight: bold;
+   font-family: "popins", cursive;
+   text-align: justify;
+   margin-left: 50px;
+   width: 600px;
+   margin-top: 10px;
+}
+
+.details button {
+   color: #fff;
+   font-size: 15px;
+   font-weight: 400;
+   border-color: #fff;
+   margin-left: 150px;
+   margin-top: 10px;
+   align-items: center;
+   font-family: "Black Ops One", cursive;
+}
+
+.details button:hover {
+   color: #d35100;
+   background-color: #fff;
+   border-color: #fff;
+}
+
+.skills {
+   height: 100vh;
+   width: 100%;
+
+   background-color: white;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-evenly;
+   align-items: center;
+   flex-wrap: nowrap;
+}
+
+.skills h1 {
+   font-size: 40px;
+   font-weight: 900px;
+   color: black;
+   font-family: "Indie Flower", cursive;
+
+}
+
+.cards {
+   display: flex;
+   align-items: center;
+   width: 100%;
+   flex-wrap: wrap;
+   justify-content: center;
+
+   gap: 2.5vh;
+}
+
+.skill-card {
+   height: 20vw;
+   width: 20vw;
+   background-color: #3d3e42;
+   border-radius: 20px;
+   display: flex;
+   flex-direction: column;
+  
+   align-items: center;
+   justify-content: center;
+   gap: 2.5vh;
+   transition: all ease 0.5s;
+}
+
+.skill-card:hover {
+   background-color: #fec86a;
+}
+
+.skill-card img {
+   height: 7.5vw;
+   width: 7.5vw;
+   object-fit: contain;
+}
+
+.skill-card h2 {
+   font-size: 24px;
+   font-weight: 400;
+   color: #fbfbfb;
+}
+
+
+.contact {
+   height: 100vh;
+   width: 100%;
+
+   background-color: black;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-evenly;
+   align-items: center;
+   flex-wrap: wrap;
+}
+
+.contact svg {
+   color: white;
+}
+
+
+
+.contact .bi:hover {
+   transition: all ease-in;
+   transform: scale(1.3);
+   color: #d35100;
+}
